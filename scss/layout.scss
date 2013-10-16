@@ -1,0 +1,73 @@
+/* ------------------------------------------------------------------ *\
+Component: Layout;
+Version: 1.0.0;
+Author: Josh Benham;
+Author URI: http://github.com/joshbenham;
+
+Base styles for the layout
+\* ------------------------------------------------------------------ */
+
+
+/* GENERIC ---------------------------------------------------------- */
+
+
+@media only screen and (max-width: 767px) {
+	.column,
+	.columns {
+		padding-left: ($column-gutter / 4);
+		padding-right: ($column-gutter / 4);
+	}
+	.row .row {
+		margin-left: -($column-gutter / 4);
+		margin-right: -($column-gutter / 4);
+	}
+}
+
+
+/* HEADER ----------------------------------------------------------- */
+
+
+.header {
+
+	.logo {
+		@include inline-block;
+		width: 135px;
+		height: 66px;
+		background-image: url(images/logo.png);
+
+		span { display: none; }
+	}
+
+}
+
+
+/* MAIN ------------------------------------------------------------- */
+
+
+.main {
+
+}
+
+
+/* CONTENT ---------------------------------------------------------- */
+
+
+.content {
+
+}
+
+
+/* SIDEBAR ---------------------------------------------------------- */
+
+
+.sidebar {
+
+}
+
+
+/* FOOTER ----------------------------------------------------------- */
+
+
+.footer {
+
+}
